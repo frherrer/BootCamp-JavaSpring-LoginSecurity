@@ -118,10 +118,10 @@ Diseñar un sistema básico de autenticación y autorización que use base de da
 ### Login
 ![Catalogo](img//login.png)
 
-###Panel
+### Panel
 ![Catalogo](img//panel.png)
 
-###Admin
+### Admin
 ![Catalogo](img//admin.png)
 
 ## Estructura recomendada del repositorio

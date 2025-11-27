@@ -36,13 +36,7 @@ Diseñar un sistema básico de autenticación y autorización que use base de da
 * perfil.html → perfil del usuario autenticado. 
 * panel.html → panel general para usuarios autenticados.
 
-## Entrega
-
-El código completo debe ser subido a un repositorio en GitHub. El equipo debe realizar una presentación breve en la que expliquen: La arquitectura general del sistema. El funcionamiento del proceso de autenticación y autorización. Los retos técnicos que enfrentaron y cómo los solucionaron. Duración: 1 jornada de clases. Ejecución: Grupal.
-
 ---
-
-> **A continuación se agregan instrucciones de ejecución (añadidas al final, sin modificar el enunciado anterior):**
 
 ## Ejecución
 
@@ -106,7 +100,7 @@ El código completo debe ser subido a un repositorio en GitHub. El equipo debe r
    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
    ```
 
-   - Si usa H2, ajuste la URL y el driver en consecuencia.
+
 
 4. **Ejecutar la aplicación**
 
@@ -121,8 +115,14 @@ El código completo debe ser subido a un repositorio en GitHub. El equipo debe r
    - Navegar a: `http://localhost:8080/login`
 
 ## Capturas
+### Login
+![Catalogo](img//login.png)
 
-- Las capturas `login.png`, `panel.png` y `admin.png` deben estar en la carpeta `/img` del repositorio. Por favor, incluya esas imágenes en el repositorio en `img/login.png`, `img/panel.png`, `img/admin.png`.
+###Panel
+![Catalogo](img//panel.png)
+
+###Admin
+![Catalogo](img//admin.png)
 
 ## Estructura recomendada del repositorio
 
@@ -138,11 +138,4 @@ El código completo debe ser subido a un repositorio en GitHub. El equipo debe r
    └─ admin.png
 ```
 
-## Notas finales
-
-- No se ha modificado el enunciado original: el texto del objetivo, instrucciones y entrega aparece tal cual arriba. Al final se han agregado las instrucciones de ejecución solicitadas y la referencia a las capturas.
-
----
-
-¡Listo! Suba el repositorio a GitHub incluyendo `README.md` y la carpeta `img` con las capturas solicitadas.
 

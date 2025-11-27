@@ -124,18 +124,5 @@ Diseñar un sistema básico de autenticación y autorización que use base de da
 ### Admin
 ![Catalogo](img//admin.png)
 
-## Estructura recomendada del repositorio
-
-```
-/ (raíz del repo)
-├─ src/
-├─ pom.xml
-├─ README.md
-├─ CrearHash.java
-└─ img/
-   ├─ login.png
-   ├─ panel.png
-   └─ admin.png
-```
 
 
